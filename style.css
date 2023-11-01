@@ -1,0 +1,49 @@
+body {
+  width: 750px;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main section {
+  border: 1px solid rgba(0, 0, 0, 0.594);
+}
+
+main section:nth-child(1) {
+  flex: 1;
+  background-color: rgba(0, 128, 0, 0.509);
+  margin-right: 10px;
+}
+
+main > section:nth-child(2) {
+  background-color: rgba(128, 53, 0, 0.848);
+  width: 100px;
+  text-align: center;
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  width: 100%;
+}
+
+div > button {
+  width: 100%;
+}
+
+footer {
+  text-align: right;
+  margin-top: 15px;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: bold;
+}
